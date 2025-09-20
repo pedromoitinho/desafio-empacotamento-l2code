@@ -8,6 +8,7 @@
 - O arquivo `entradaTeste.json` contém 10 pedidos de exemplo para teste
 - A documentação Swagger está disponível em `/api-docs`
 - Todos os endpoints requerem autenticação via API Key
+- Para facilitar a visualização foi feito o deploy dessa aplicação no render, e pode ser acessado por aqui: https://desafio-empacotamento-l2code.onrender.com/
 
 ## Pré-requisitos
 
