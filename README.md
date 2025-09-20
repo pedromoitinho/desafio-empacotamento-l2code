@@ -1,7 +1,7 @@
 # Desafio Empacotamento L2Code
 
 
-## 📝 Notas importantes
+## Notas importantes
 
 - A API Key de teste é: `test-api-key-123`
 - A porta padrão é `3000`, mas pode ser alterada via variável de ambiente `PORT`
@@ -9,7 +9,7 @@
 - A documentação Swagger está disponível em `/api-docs`
 - Todos os endpoints requerem autenticação via API Key
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 ### Usando NPM/PNPM
 - Node.js 18 ou superior
@@ -19,7 +19,7 @@
 - Docker
 - Docker Compose
 
-## 🚀 Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Usando Docker
 
@@ -88,7 +88,7 @@ Acesse a documentação interativa da API em:
 http://localhost:3000/api-docs
 ```
 
-## 🧪 Testando a API
+## Testando a API
 
 ### Usando o arquivo de teste fornecido
 
@@ -152,7 +152,7 @@ curl -X POST http://localhost:3000/empacotamento/processamento \
 }
 ```
 
-## 🏗️ Estrutura do projeto
+## Estrutura do projeto
 
 ```
 src/
@@ -167,7 +167,7 @@ src/
 test/                 # Testes
 ```
 
-## 🔧 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **NestJS** - Framework Node.js
 - **TypeScript** - Linguagem
