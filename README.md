@@ -1,13 +1,11 @@
 # Desafio Empacotamento L2Code
 
-
 ## Notas importantes
 
-- A API Key de teste é: `test-api-key-123`
+- A API Key de teste é: `test-api-key-123` (foi colocada essa apenas para testes, pode ser alterado facilmente dentro do código, caso prefira JWT)
 - A porta padrão é `3000`, mas pode ser alterada via variável de ambiente `PORT`
 - O arquivo `entradaTeste.json` contém 10 pedidos de exemplo para teste
 - A documentação Swagger está disponível em `/api-docs`
-- Todos os endpoints requerem autenticação via API Key
 - Para facilitar a visualização foi feito o deploy dessa aplicação no render, e pode ser acessado por aqui: https://desafio-empacotamento-l2code.onrender.com/
 
 ## Pré-requisitos
@@ -46,14 +44,11 @@ pnpm install
 npm run start:dev
 
 # Com PNPM
-pnpm run start:dev
+pnpm start:dev
 
 O serviço estará disponível em `http://localhost:3000` (ou na porta especificada).
 
-## 🧪 Executando os testes
-
 ### Testes unitários
-
 ```bash
 # Executar todos os testes
 npm run test
